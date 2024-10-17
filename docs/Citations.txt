@@ -1,0 +1,17 @@
+1) Ranzato, Irene. "The Cockney persona: the London accent in characterisation and translation." Perspectives 27, no. 2 (2019): 235-251.
+
+2) Ding, Shaojin, Guanlong Zhao, and Ricardo Gutierrez-Osuna. "Accentron: Foreign accent conversion to arbitrary non-native speakers using zero-shot learning." Computer Speech & Language 72 (2022): 101302.
+
+3) Nakamura, Satoshi. "Overcoming the language barrier with speech translation technology." Science & Technology Trends-Quarterly Review 31 (2009).
+
+4) Quamer, Waris, Anurag Das, John Levis, Evgeny Chukharev-Hudilainen, and Ricardo Gutierrez-Osuna. "Zero-shot foreign accent conversion without a native reference." Proc. Intespeech (2022).
+
+5) Ranzato, Irene. "Talking proper vs. talking with an accent: the sociolinguistic divide in original and translated audiovisual dialogue." Multilingua 38, no. 5 (2019): 547-562.
+
+6) Nguyen, Tuan-Nam, Ngoc-Quan Pham, and Alexander Waibel. "Accent Conversion using Pre-trained Model and Synthesized Data from Voice Conversion." In Interspeech, pp. 2583-2587. 2022.
+
+7) Steffensen, Kenn Nakata. "BBC English with an accent:“African” and “Asian” accents and the translation of culture in British broadcasting." Meta 57, no. 2 (2012): 510-527.
+
+8) Delpech, Estelle, Marion Laignelet, Christophe Pimm, Céline Raynal, Michal Trzos, Alexandre Arnold, and Dominique Pronto. "A real-life, French-accented corpus of air traffic control communications." In Language Resources and Evaluation Conference (LREC). 2018.
+
+9) Solórzano Jr, Ramón, and Dialog América. "ACCENT GENERACIÓN." Technofuturos: Critical Interventions in Latina/o Studies (2007): 335.
