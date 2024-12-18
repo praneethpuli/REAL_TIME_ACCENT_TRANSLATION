@@ -1,0 +1,19 @@
+1. Ding, Shaojin, Guanlong Zhao, and Ricardo Gutierrez-Osuna. "Accentron: Foreign accent conversion to arbitrary non-native speakers using zero-shot learning." Computer Speech & Language 72 (2022): 101302.
+
+2. Zhao, Guanlong, Shaojin Ding, and Ricardo Gutierrez-Osuna. "Converting foreign accent speech without a reference." IEEE/ACM Transactions on Audio, Speech, and Language Processing 29 (2021): 2367-2381.
+
+3. Nguyen, Thi-Huyen, Wu-Yuin Hwang, Xuan-Lam Pham, and Zhao-Heng Ma. "User-oriented EFL speaking through application and exercise: Instant speech translation and shadowing in authentic context." Journal of Educational Technology & Society 21, no. 4 (2018): 129-142.
+
+4. Simard, Michel, and Alexandre Deslauriers. "Real-time automatic insertion of accents in French text." Natural Language Engineering 7, no. 2 (2001): 143-165.
+
+5. Lambourne, Andrew, Jill Hewitt, Caroline Lyon, and Sandra Warren. "Speech-based real-time subtitling services." International Journal of speech technology 7 (2004): 269-279.
+
+6. Escudeiro, Paula, Nuno Escudeiro, Rosa Reis, Jorge Lopes, Marcelo Norberto, Ana Bela Baltasar, Maciel Barbosa, and José Bidarra. "Virtual sign–a real time bidirectional translator of portuguese sign language." Procedia Computer Science 67 (2015): 252-262.
+
+7. Wahlster, Wolfgang. Verbmobil: Translation of face-to-face dialogs. Springer Berlin Heidelberg, 1993.
+
+8. Calefato, Fabio, Filippo Lanubile, Rafael Prikladnicki, and João Henrique S. Pinto. "An empirical simulation-based study of real-time speech translation for multilingual global project teams." In Proceedings of the 8th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement, pp. 1-9. 2014.
+
+9. Du, Limin, Junlan Feng, Yi Song, and Heng Wang. "Speech translation on Internet CEST-CAS2. 0." In Proceedings of 2001 International Symposium on Intelligent Multimedia, Video and Speech Processing. ISIMP 2001 (IEEE Cat. No. 01EX489), pp. 189-192. IEEE, 2001.
+
+10. Hasler, Béatrice S., Oren Salomon, Peleg Tuchman, Amir Lev-Tov, and Doron Friedman. "Real-time gesture translation in intercultural communication." Ai & Society 32 (2017): 25-35.
