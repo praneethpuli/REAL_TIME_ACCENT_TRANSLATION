@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Accent Translation</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <link rel="icon" href="static/favicon.ico" />
+</head>
+<body>
+    <div class="container">
+        <h1>Real-Time Accent Translation</h1>
+
+        <!-- Form to upload file and select accent -->
+        <form id="uploadForm">
+            <input type="file" id="audioFile" accept="audio/*" required>
+            <select id="accentSelector" required>
+                <option value="">Select Accent</option>
+                <option value="0">American English</option>
+                <option value="1">British English</option>
+                <option value="2">Indian English</option>
+                <option value="3">Australian English</option>
+            </select>
+            <button type="submit">Upload and Translate</button>
+        </form>
+
+        <!-- Result Section -->
+        <div class="result" id="result">
+            <h3>Transcription:</h3>
+            <p id="transcription"></p>
+            <h3>Translated Speech:</h3>
+            <audio id="audioPlayer" controls></audio>
+        </div>
+    </div>
+
+    <script>
+        // Handle form submission
+        document.getElementById('uploadForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const formData = new FormData();
+            const audioFile = document.getElementById('audioFile').files[0];
+            const accent = document.getElementById('accentSelector').value;
+
+            // Append file and accent to form data
+            formData.append('file', audioFile);
+            formData.append('accent', accent);  // Send accent to backend
+
+            // Send POST request to backend
+            fetch('http://127.0.0.1:5000/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.audio_url) {
+                    // Display transcription
+                    document.getElementById('transcription').textContent = data.message;
+
+                    // Load and play the translated audio
+                    const audioPlayer = document.getElementById('audioPlayer');
+                    audioPlayer.src = data.audio_url;
+                    document.getElementById('result').style.display = 'block';
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        });
+    </script>
+</body>
+</html>
